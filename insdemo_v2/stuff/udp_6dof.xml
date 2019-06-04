@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+<generic>
+    <input>
+      <line_separator>newline</line_separator>
+      <var_separator>tab</var_separator>
+       
+      <chunk>
+         <node>/position/latitude-deg</node>
+         <type>double</type>
+         <format>%f</format>
+      </chunk>
+       
+      <chunk>
+         <node>/position/longitude-deg</node>
+         <type>double</type>
+         <format>%f</format>
+      </chunk>
+	   
+      <chunk>
+         <node>/position/altitude-ft</node>
+         <type>double</type>
+         <format>%f</format>
+      </chunk>
+	   
+      <chunk>
+         <node>/orientation/heading-deg</node>
+         <type>double</type>
+         <format>%f</format>
+      </chunk>
+	   
+      <chunk>
+         <node>/orientation/pitch-deg</node>
+         <type>double</type>
+         <format>%f</format>
+      </chunk>
+	   
+      <chunk>
+         <node>/orientation/roll-deg</node>
+         <type>double</type>
+         <format>%f</format>
+      </chunk>
+	  
+   </input>
+</generic>
+</PropertyList>

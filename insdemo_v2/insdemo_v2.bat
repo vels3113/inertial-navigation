@@ -1,0 +1,1 @@
+matlab -nodisplay -nosplash -nodesktop -r "run('insdemo_v2');"
